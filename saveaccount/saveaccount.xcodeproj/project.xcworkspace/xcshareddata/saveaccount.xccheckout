@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4C1B1C30-F6E6-4F04-BEFC-DBA419CCF1C5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>saveaccount</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2747761E73DC4223AD001B9CB3629AB0E17C2E10</key>
+		<string>https://github.com/jqtPhoneGroup/saveAccountiOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>saveaccount/saveaccount.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2747761E73DC4223AD001B9CB3629AB0E17C2E10</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jqtPhoneGroup/saveAccountiOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2747761E73DC4223AD001B9CB3629AB0E17C2E10</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2747761E73DC4223AD001B9CB3629AB0E17C2E10</string>
+			<key>IDESourceControlWCCName</key>
+			<string>saveAccountiOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -43,7 +43,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row==2)
+    if (indexPath.row==0)
+    {
+        [self performSegueWithIdentifier:@"persondata" sender:self];
+    }
+    else if (indexPath.row==1)
+    {
+        [self performSegueWithIdentifier:@"setting" sender:self];
+    }
+    else if (indexPath.row==2)
     {
         [self performSegueWithIdentifier:@"updatepassword" sender:self];
     }

@@ -1,36 +1,31 @@
 //
-//  MessageTableViewController.m
+//  MessageTabViewController.m
 //  saveaccount
 //
-//  Created by jixiongge on 15/5/23.
+//  Created by jixiongge on 15/5/25.
 //  Copyright (c) 2015年 jixiongge. All rights reserved.
 //
 
-#import "MessageTableViewController.h"
+#import "MessageTabViewController.h"
 #import "MessageTableViewCell.h"
 #import "KxMenu.h"
 
-@interface MessageTableViewController ()
+@interface MessageTabViewController ()
 
 @end
 
-@implementation MessageTableViewController
+@implementation MessageTabViewController
+@synthesize messagetabview;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     messagedatarray=[NSMutableArray arrayWithObjects:@"打车从单位到家",@"111111111111",@"2015.5.21",@"未审批", nil];
 }
 
-//
 - (IBAction)Popbutton:(UIButton*)sender
 {
     NSArray *menuItems =
     @[
-      [KxMenuItem menuItem:@"新建报销单"
-                     image:[UIImage imageNamed:@"action_icon"]
-                    target:self
-                    action:@selector(pushMenuItem:)],
-      
       [KxMenuItem menuItem:@"打车费"
                      image:[UIImage imageNamed:@"check_icon"]
                     target:self
@@ -46,11 +41,6 @@
                     target:self
                     action:@selector(pushMenuItem:)],
       ];
-    
-    //      KxMenuItem *first = menuItems[0];
-    //      first.foreColor = [UIColor colorWithRed:47/255.0f green:112/255.0f blue:225/255.0f alpha:1.0];
-    //      first.alignment = NSTextAlignmentCenter;
-    
     [KxMenu showMenuInView:self.view.window
                   fromRect:sender.frame
                  menuItems:menuItems];
@@ -61,13 +51,6 @@
     KxMenuItem *button = (KxMenuItem *)sender;
     NSLog(@"%@", button.title);
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
-
-#pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 2;
@@ -121,7 +104,13 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     NSLog(@"row=%ld",(long)indexPath.row);
 }
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
+
 
 @end

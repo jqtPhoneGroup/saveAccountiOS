@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5EF4A21B12BD2A001BFBB7 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EF4A11B12BD2A001BFBB7 /* KxMenu.m */; };
+		1F5EF4A81B12C526001BFBB7 /* MessageTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EF4A71B12C526001BFBB7 /* MessageTabViewController.m */; };
+		1F5EF5261B130431001BFBB7 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EF5251B130431001BFBB7 /* SettingTableViewController.m */; };
+		1F5EF5291B13049C001BFBB7 /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EF5281B13049C001BFBB7 /* SettingTableViewCell.m */; };
+		1F5EF52C1B130BD2001BFBB7 /* PersonDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EF52B1B130BD2001BFBB7 /* PersonDataTableViewController.m */; };
+		1F5EF52F1B130BE7001BFBB7 /* PersonDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5EF52E1B130BE7001BFBB7 /* PersonDataTableViewCell.m */; };
 		1F699B401B100E8F00483DB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F699B3F1B100E8F00483DB7 /* main.m */; };
 		1F699B431B100E8F00483DB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F699B421B100E8F00483DB7 /* AppDelegate.m */; };
 		1F699B491B100E8F00483DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F699B471B100E8F00483DB7 /* Main.storyboard */; };
@@ -31,6 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F5EF4A01B12BD2A001BFBB7 /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		1F5EF4A11B12BD2A001BFBB7 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		1F5EF4A61B12C526001BFBB7 /* MessageTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTabViewController.h; sourceTree = "<group>"; };
+		1F5EF4A71B12C526001BFBB7 /* MessageTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTabViewController.m; sourceTree = "<group>"; };
+		1F5EF5241B130431001BFBB7 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		1F5EF5251B130431001BFBB7 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		1F5EF5271B13049C001BFBB7 /* SettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
+		1F5EF5281B13049C001BFBB7 /* SettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
+		1F5EF52A1B130BD2001BFBB7 /* PersonDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDataTableViewController.h; sourceTree = "<group>"; };
+		1F5EF52B1B130BD2001BFBB7 /* PersonDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDataTableViewController.m; sourceTree = "<group>"; };
+		1F5EF52D1B130BE7001BFBB7 /* PersonDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDataTableViewCell.h; sourceTree = "<group>"; };
+		1F5EF52E1B130BE7001BFBB7 /* PersonDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDataTableViewCell.m; sourceTree = "<group>"; };
 		1F699B3A1B100E8F00483DB7 /* saveaccount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saveaccount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F699B3E1B100E8F00483DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F699B3F1B100E8F00483DB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F5EF49E1B12BD2A001BFBB7 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				1F5EF49F1B12BD2A001BFBB7 /* TopPopView */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		1F5EF49F1B12BD2A001BFBB7 /* TopPopView */ = {
+			isa = PBXGroup;
+			children = (
+				1F5EF4A01B12BD2A001BFBB7 /* KxMenu.h */,
+				1F5EF4A11B12BD2A001BFBB7 /* KxMenu.m */,
+			);
+			path = TopPopView;
+			sourceTree = "<group>";
+		};
 		1F699B311B100E8E00483DB7 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +136,7 @@
 				1F699B471B100E8F00483DB7 /* Main.storyboard */,
 				1F699B4A1B100E8F00483DB7 /* Images.xcassets */,
 				1F699B4C1B100E8F00483DB7 /* LaunchScreen.xib */,
+				1F5EF49E1B12BD2A001BFBB7 /* SDK */,
 				1F699B3D1B100E8F00483DB7 /* Supporting Files */,
 			);
 			path = saveaccount;
@@ -146,6 +182,8 @@
 			children = (
 				1F699B6D1B101B6300483DB7 /* MessageTableViewController.h */,
 				1F699B6E1B101B6300483DB7 /* MessageTableViewController.m */,
+				1F5EF4A61B12C526001BFBB7 /* MessageTabViewController.h */,
+				1F5EF4A71B12C526001BFBB7 /* MessageTabViewController.m */,
 				1F699B701B1025B000483DB7 /* MessageTableViewCell.h */,
 				1F699B711B1025B000483DB7 /* MessageTableViewCell.m */,
 			);
@@ -159,6 +197,14 @@
 				1F699B781B10297F00483DB7 /* MeTableViewController.m */,
 				1F699B7A1B102BCA00483DB7 /* MeTableViewCell.h */,
 				1F699B7B1B102BCA00483DB7 /* MeTableViewCell.m */,
+				1F5EF5241B130431001BFBB7 /* SettingTableViewController.h */,
+				1F5EF5251B130431001BFBB7 /* SettingTableViewController.m */,
+				1F5EF5271B13049C001BFBB7 /* SettingTableViewCell.h */,
+				1F5EF5281B13049C001BFBB7 /* SettingTableViewCell.m */,
+				1F5EF52A1B130BD2001BFBB7 /* PersonDataTableViewController.h */,
+				1F5EF52B1B130BD2001BFBB7 /* PersonDataTableViewController.m */,
+				1F5EF52D1B130BE7001BFBB7 /* PersonDataTableViewCell.h */,
+				1F5EF52E1B130BE7001BFBB7 /* PersonDataTableViewCell.m */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -264,11 +310,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F699B431B100E8F00483DB7 /* AppDelegate.m in Sources */,
+				1F5EF4A81B12C526001BFBB7 /* MessageTabViewController.m in Sources */,
 				1F699B791B10297F00483DB7 /* MeTableViewController.m in Sources */,
 				1F699B401B100E8F00483DB7 /* main.m in Sources */,
+				1F5EF5261B130431001BFBB7 /* SettingTableViewController.m in Sources */,
+				1F5EF4A21B12BD2A001BFBB7 /* KxMenu.m in Sources */,
+				1F5EF52F1B130BE7001BFBB7 /* PersonDataTableViewCell.m in Sources */,
 				1F699B721B1025B000483DB7 /* MessageTableViewCell.m in Sources */,
 				1F699B661B1013D200483DB7 /* LoginViewController.m in Sources */,
 				1F699B7C1B102BCA00483DB7 /* MeTableViewCell.m in Sources */,
+				1F5EF5291B13049C001BFBB7 /* SettingTableViewCell.m in Sources */,
+				1F5EF52C1B130BD2001BFBB7 /* PersonDataTableViewController.m in Sources */,
 				1F699B6F1B101B6300483DB7 /* MessageTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +516,7 @@
 				1F699B5F1B100E8F00483DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F699B601B100E8F00483DB7 /* Build configuration list for PBXNativeTarget "saveaccountTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +525,7 @@
 				1F699B621B100E8F00483DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
